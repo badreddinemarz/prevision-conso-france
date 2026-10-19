@@ -1,0 +1,11 @@
+,validation,validation,validation,test,test,test
+,MAPE_%,MAE_MW,bias_MW,MAPE_%,MAE_MW,bias_MW
+Naive (7 days before),6.35,3379.44,10.61,6.42,3446.14,-13.31
+Linear regression,2.42,1204.98,77.23,2.38,1189.52,-353.11
+Gradient boosting,1.72,896.4,74.98,1.65,860.93,-148.74
+Gradient boosting + cities (final),1.62,843.66,75.27,1.6,828.0,-144.16
+"Final, rolling correction",1.6,829.59,4.33,1.62,839.45,-4.74
+"RTE day-ahead, raw",2.63,1309.38,-980.47,2.74,1387.79,-1122.2
+"RTE day-ahead, rolling correction",1.65,837.8,-3.77,1.58,807.88,-8.22
+"RTE day-ahead, best case",1.72,875.17,-0.0,1.68,854.07,0.0
+RTE same-day update (not comparable),2.32,1155.45,-1052.52,2.53,1280.19,-1112.23

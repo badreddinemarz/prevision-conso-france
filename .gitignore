@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+data/raw/
+results/predictions.csv
+results/test_year_scored.csv
